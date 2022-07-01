@@ -1,0 +1,29 @@
+.transactionHistory {
+   padding: 10px 20px;
+     margin: auto;
+     margin-bottom: 10px;
+     background-color: rgb(255, 255, 255);
+     border-radius: 5px;
+     overflow: hidden;
+     box-shadow: 1px 1px 10px 1px rgba(0, 0, 255, .12);
+     gap: 10px;
+     text-align: center;
+     border-collapse: collapse;
+     width: 500px;
+
+     td, th {
+       border: 1px solid #ddd;
+       padding: 10px;
+     }
+     
+     tr:nth-child(2n){background-color: #f2f2f2;}
+     
+     tr:hover {background-color: #ddd;}
+     
+     th {
+       padding-top: 12px;
+       padding-bottom: 12px;
+       background-color: #4cafaf;
+       color: white;
+     }
+}

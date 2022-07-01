@@ -1,0 +1,49 @@
+.friend__item{
+   padding: 10px 20px;
+   margin: auto;
+   margin-bottom: 10px;
+   width: 350px;
+   background-color: white;
+   border-radius: 5px;
+   overflow: hidden;
+   box-shadow: 1px 1px 10px 1px rgba(0, 0, 255, .12);
+   display: flex;
+   align-items: center;
+   gap: 10px;
+
+}
+
+.friend__status{
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   
+}
+
+// .statusOn{
+//    background-color: green;
+// }
+// .statusOff{
+//    background-color: red;
+// }
+
+.false{
+   background-color: red;
+}
+
+.true{
+   background-color: green;
+}
+
+.friend__avatar{
+   width: 100px;
+   height: 100px;
+   background-color: rgb(204, 204, 204);
+   border-radius: 10px;
+}
+
+.friend__name{
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 1.19;
+}
